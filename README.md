@@ -2,6 +2,9 @@
 
 A set of command line utilities to version the Linux root filesystem.
 
+## Status
+
+Planning!
 
 ## Goals:
 
@@ -25,3 +28,32 @@ The rest of the `rootgit` is a set of optional command-line utilities to
 automatically find the sudoer's main user id and commit changes with his/her
 identity. it helps people to be responsible for their changes in the server 
 configuration.
+
+## Installation
+
+<TODO>
+
+
+## Usage
+
+The most of command-line interface is the same as the git, so you no need to 
+learn anything here, just take a look!
+
+
+### Setup
+
+This command makes the root `/` directory as a git repo. (`/.git`)
+
+
+```bash
+rootgit init [remote-url]
+```
+
+or 
+
+```bash
+rootgit clone <remote-url>
+```
+
+
+
